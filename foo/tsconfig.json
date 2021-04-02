@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "strict": true,
+    "checkJs": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "references": [{
+    "path": "node_modules/common"
+  }],
+  "include": [
+    "src/**/*"
+  ]
+}
